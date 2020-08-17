@@ -1,3 +1,4 @@
 /home/wangpei/CLionProjects/BackProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/wangpei/CLionProjects/BackProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wangpei/CLionProjects/BackProject/cmake-build-debug/CMakeFiles/visualizer.dir
 /home/wangpei/CLionProjects/BackProject/cmake-build-debug/CMakeFiles/untitled.dir

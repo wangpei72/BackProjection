@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/wangpei/CLionProjects/BackProject/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/visualizer.dir/all
 all: CMakeFiles/untitled.dir/all
 
 .PHONY : all
@@ -63,9 +64,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/visualizer.dir/clean
 clean: CMakeFiles/untitled.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/visualizer.dir
+
+# All Build rule for target.
+CMakeFiles/visualizer.dir/all:
+	$(MAKE) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/depend
+	$(MAKE) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangpei/CLionProjects/BackProject/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target visualizer"
+.PHONY : CMakeFiles/visualizer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/visualizer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangpei/CLionProjects/BackProject/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/visualizer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangpei/CLionProjects/BackProject/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/visualizer.dir/rule
+
+# Convenience name for target.
+visualizer: CMakeFiles/visualizer.dir/rule
+
+.PHONY : visualizer
+
+# clean rule for target.
+CMakeFiles/visualizer.dir/clean:
+	$(MAKE) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/clean
+.PHONY : CMakeFiles/visualizer.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/untitled.dir

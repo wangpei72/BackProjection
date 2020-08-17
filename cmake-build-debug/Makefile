@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named visualizer
+
+# Build rule for target.
+visualizer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualizer
+.PHONY : visualizer
+
+# fast build rule for target.
+visualizer/fast:
+	$(MAKE) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/build
+.PHONY : visualizer/fast
+
+#=============================================================================
 # Target rules for targets named untitled
 
 # Build rule for target.
@@ -177,6 +190,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+visualize.o: visualize.cpp.o
+
+.PHONY : visualize.o
+
+# target to build an object file
+visualize.cpp.o:
+	$(MAKE) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/visualize.cpp.o
+.PHONY : visualize.cpp.o
+
+visualize.i: visualize.cpp.i
+
+.PHONY : visualize.i
+
+# target to preprocess a source file
+visualize.cpp.i:
+	$(MAKE) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/visualize.cpp.i
+.PHONY : visualize.cpp.i
+
+visualize.s: visualize.cpp.s
+
+.PHONY : visualize.s
+
+# target to generate assembly for a file
+visualize.cpp.s:
+	$(MAKE) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/visualize.cpp.s
+.PHONY : visualize.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,6 +225,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... visualizer"
 	@echo "... untitled"
 	@echo "... BackProject.o"
 	@echo "... BackProject.i"
@@ -192,6 +233,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... visualize.o"
+	@echo "... visualize.i"
+	@echo "... visualize.s"
 .PHONY : help
 
 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/BackProject.dir/main.cpp.o  -o BackProject 

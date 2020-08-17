@@ -15,8 +15,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake"
-  "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-  "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeFindCodeBlocks.cmake"
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeGenericSystem.cmake"
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake"
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake"
@@ -34,7 +32,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake"
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/Platform/Linux.cmake"
   "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
-  "/home/wangpei/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/ProcessorCount.cmake"
   "/usr/local/opencv331/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/local/opencv331/share/OpenCV/OpenCVConfig.cmake"
   "/usr/local/opencv331/share/OpenCV/OpenCVModules-release.cmake"
@@ -54,5 +51,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/visualizer.dir/DependInfo.cmake"
   "CMakeFiles/untitled.dir/DependInfo.cmake"
   )
